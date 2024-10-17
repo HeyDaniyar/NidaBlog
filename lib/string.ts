@@ -20,7 +20,7 @@ export function parseDisplayName({
     return lastName
   }
 
-  return '匿名用户'
+  return 'Anonymous User'
 }
 
 export function truncate(str: string, maxLength = 50): string {

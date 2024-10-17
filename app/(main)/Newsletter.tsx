@@ -15,7 +15,7 @@ import { Button } from '~/components/ui/Button'
 const formId = '5108903'
 
 export const newsletterFormSchema = z.object({
-  email: z.string().email({ message: '邮箱地址不正确' }).nonempty(),
+  email: z.string().email({ message: 'Email is not valid' }).nonempty(),
   formId: z.string().nonempty(),
 })
 export type NewsletterForm = z.infer<typeof newsletterFormSchema>

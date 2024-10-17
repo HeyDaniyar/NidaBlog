@@ -32,7 +32,7 @@ export default async function AdminSubscribersPage() {
   return (
     <>
       <Title>
-        总订阅{' '}
+        Subscribers
         {typeof count === 'object' && 'total' in count && (
           <span>{count.total}</span>
         )}

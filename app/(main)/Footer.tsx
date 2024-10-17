@@ -117,7 +117,7 @@ export async function Footer() {
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
                 &copy; {new Date().getFullYear()} Nida AGI. Open Source from:
-                <PeekabooLink href="https://github.com/HeyDaniyar">
+                <PeekabooLink href="https://github.com/HeyDaniyar/NidaBlog">
                   GitHub
                 </PeekabooLink>
               </p>

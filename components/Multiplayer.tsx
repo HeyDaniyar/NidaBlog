@@ -77,7 +77,7 @@
 //                     exit={{ opacity: 0, scale: 0.95 }}
 //                   >
 //                     <Balancer>
-//                       {connection === 'open' && '已显示多人光标'}
+//                       {connection === 'open' && '已显示多da人光标'}
 //                       {connection === 'closed' && '点击显示多人光标'}
 //                       {connection === 'connecting' && '连接中...'}
 //                       {connection === 'failed' && '连接失败'}

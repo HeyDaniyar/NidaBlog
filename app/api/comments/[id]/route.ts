@@ -140,7 +140,7 @@ export async function POST(req: NextRequest, { params }: Params) {
           await resend.emails.send({
             from: emailConfig.from,
             to: primaryEmailAddress.emailAddress,
-            subject: '👋 有人回复了你的评论',
+            subject: '👋 Someone replied to your comment',
             react: NewReplyCommentEmail({
               postTitle: post.title,
               postLink: url(`/blog/${post.slug}`).href,

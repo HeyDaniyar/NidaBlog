@@ -79,7 +79,7 @@
 //                   exit={{ opacity: 0, scale: 0.95 }}
 //                 >
 //                   <Balancer>
-//                     其他 <b>{others.length}</b> 个小伙伴也在阅读
+//                     Others <b>{others.length}</b> people are reading
 //                   </Balancer>
 //                 </motion.div>
 //               </Tooltip.Content>

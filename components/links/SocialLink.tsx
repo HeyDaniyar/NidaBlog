@@ -50,10 +50,10 @@ const iconMapper: { [key: string]: PlatformInfo } = {
   '(?:bilibili.com)': {
     icon: BilibiliIcon,
     platform: 'bilibili',
-    label: '哔哩哔哩',
+    label: 'Bilibili',
   },
-  '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: '邮箱地址' },
-  '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS 订阅' },
+  '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: 'Email' },
+  '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS' },
 }
 
 function getIconForUrl(url: string): PlatformInfo | undefined {

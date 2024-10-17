@@ -56,7 +56,7 @@ export function PortableTextCodeBlock({
             )}
             <div className="absolute right-0 top-2 flex h-8 items-center pr-4">
               <div className="relative -mr-0.5 flex">
-                <ElegantTooltip content="复制">
+                <ElegantTooltip content="Copy">
                   <button
                     type="button"
                     className="text-zinc-400 hover:text-zinc-500 dark:text-zinc-500 dark:hover:text-zinc-400"

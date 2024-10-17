@@ -591,7 +591,7 @@ function CommentTextarea({ isLoading, onSubmit }: CommentTextareaProps) {
                 </motion.button>
               </ElegantTooltip>
 
-              <ElegantTooltip content="发送">
+              <ElegantTooltip content="Send">
                 <motion.button
                   className="appearance-none"
                   whileHover={{ scale: 1.05 }}

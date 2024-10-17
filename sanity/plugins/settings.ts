@@ -51,7 +51,7 @@ export const settingsStructure = (
 
     return S.list()
       .id('root')
-      .title('内容管理')
+      .title('Settings')
       .items([settingsListItem, S.divider(), ...defaultListItems])
   }
 }

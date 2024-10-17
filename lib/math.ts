@@ -18,9 +18,9 @@ export function toFixed(value: number, n = 1) {
 export function prettifyNumber(n: number, inChinese = false): string {
   if (inChinese) {
     if (Math.abs(n) >= 100000000) {
-      return toFixed(n / 100000000) + '亿'
+      return toFixed(n / 100000000) + 'B'
     } else if (Math.abs(n) >= 10000) {
-      return toFixed(n / 10000) + '万'
+      return toFixed(n / 10000) + 'M'
     } else {
       return Intl.NumberFormat('en-US').format(n)
     }
