@@ -1,7 +1,7 @@
-import Script from 'next/script'
 import './blog/[slug]/blog.css'
 
 import { Analytics } from '@vercel/analytics/react'
+import Script from 'next/script'
 import { Suspense } from 'react'
 
 import { Footer } from '~/app/(main)/Footer'
