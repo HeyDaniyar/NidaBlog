@@ -58,21 +58,21 @@ export default async function AdminCommentsPage() {
 
       <Grid numItemsMd={2} numItemsLg={3} className="mt-6 gap-6">
         <Card>
-          <Text>Today's Comments</Text>
+          <Text>{`Today's Comments`}</Text>
 
           {commentsCount && 'today_count' in commentsCount && (
             <Metric>{commentsCount.today_count}</Metric>
           )}
         </Card>
         <Card>
-          <Text>This Week's Comments</Text>
+          <Text>{`This Week's Comments`}</Text>
           {commentsCount && 'this_week_count' in commentsCount && (
             <Metric>{commentsCount.this_week_count}</Metric>
           )}
         </Card>
 
         <Card>
-          <Text>This Month's Comments</Text>
+          <Text>{`This Month's Comments`}</Text>
           {commentsCount && 'this_month_count' in commentsCount && (
             <Metric>{commentsCount.this_month_count}</Metric>
           )}
